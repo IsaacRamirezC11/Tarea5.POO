@@ -1,0 +1,21 @@
+//Tarea 5: Juego del gato parte 2
+    //Ramírez Cortés
+import java.util.Scanner;
+public class Tarea5Gatop2 {
+    public static void main(String[] args){
+
+    Scanner Teclado = new Scanner(System.in);
+        System.out.println("Introduce la cadena:");
+    String entra = Teclado.nextLine();//XOXOXO
+
+            char x = 'X';
+            char O = 'O';
+            char guion = '_';
+
+        System.out.println("_____");
+        System.out.println("|" + entra.charAt(0) + entra.charAt(1) + entra.charAt(2) + "|");
+        System.out.println("|" + entra.charAt(3) + entra.charAt(4) + entra.charAt(5) + "|");
+        System.out.println("|" + entra.charAt(6) + entra.charAt(7) + entra.charAt(8) + "|");
+        System.out.println("-----");
+    }
+}
